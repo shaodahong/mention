@@ -6,8 +6,8 @@
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
   },
   "devDependencies": {
     "@types/react": "^16.9.9",
