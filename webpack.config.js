@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'My App',
+      title: 'Textarea Mention',
       template: './assets/index.html',
     }),
   ],
